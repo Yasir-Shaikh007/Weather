@@ -75,7 +75,7 @@ if (ans.cod == "404") {
         }
         //-----------CLOUDS-------------
         else if ((description == "few clouds" || description == "scattered clouds" || description == "broken clouds") && ((hours1 >= 0 && hours1 < 6) || (hours1 >= 19 && hours1 < 24))) {
-            img = `svgs/moon_clouds.svg`
+            img = `svgs/moon_cloud.svg`
         }
         else if ((description == "few clouds" || description == "scattered clouds" || description == "broken clouds") && ((hours1 >= 6 && hours1 < 19))) {
             img = `svgs/sun_cloud.svg`
