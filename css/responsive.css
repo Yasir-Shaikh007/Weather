@@ -1,0 +1,436 @@
+@media(max-width:1300px) {
+    .nav-left {
+        width: 40%;
+        transition: 0.5 ease-in-out;
+    }
+}
+
+@media(max-width:1200px) {
+    .degree {
+        font-size: 65px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .like {
+        font-size: 32px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .tt {
+        font-size: 65px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .cc {
+        font-size: 32px;
+        transition: 0.5 ease-in-out;
+    }
+}
+
+@media(max-width:1100px) {
+    #city-name {
+        font-size: 80px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .temperature span {
+        height: 60%;
+        width: 90%;
+        transition: 0.5s ease-in-out;
+    }
+
+    .feel span {
+        height: 60%;
+        width: 90%;
+        transition: 0.5s ease-in-out;
+    }
+
+    .degree {
+        font-size: 65px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .like {
+        font-size: 32px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .tt {
+        font-size: 65px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .cc {
+        font-size: 32px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .humidity div {
+        height: 70%;
+        width: 30%;
+        font-size: 25px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .cloud {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5 ease-in-out;
+    }
+
+    .cloud img {
+        height: 90%;
+        width: 90%;
+        transition: 0.5 ease-in-out;
+    }
+}
+
+@media(max-width:975px) {
+    .nav-left {
+        width: 50%;
+        transition: 0.5 ease-in-out;
+    }
+
+    .humidity div {
+        height: 70%;
+        width: 30%;
+        font-size: 22px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .degree {
+        font-size: 55px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .like {
+        font-size: 30px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .tt {
+        font-size: 55px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .cc {
+        font-size: 30px;
+        transition: 0.5 ease-in-out;
+    }
+}
+
+@media(max-width:780px) {
+    .name {
+        font-size: 25px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .degree {
+        font-size: 48px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .like {
+        font-size: 28px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .tt {
+        font-size: 48px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .cc {
+        font-size: 28px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .humidity div {
+        font-size: 18px;
+        transition: 0.5 ease-in-out;
+    }
+}
+
+@media(max-width:650px) {
+    .nav {
+        top: 15px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .nav-left {
+        width: 15%;
+        justify-content: flex-start;
+        transition: 0.5 ease-in-out;
+    }
+
+    .nav-right {
+        width: 80%;
+        transition: 0.5 ease-in-out;
+    }
+
+    .logo {
+        width: 100%;
+        transition: 0.5 ease-in-out;
+    }
+
+    .name {
+        display: none;
+    }
+
+    #city-name {
+        padding: 0;
+        font-size: 65px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .humidity div {
+        font-size: 18px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .temperature span {
+        font-size: 60px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .feel span {
+        font-size: 35px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .nav {
+        width: 90%;
+        transition: 0.5 ease-in-out;
+    }
+
+    .nav-left {
+        width: 20%;
+        transition: 0.5 ease-in-out;
+    }
+
+    .logo img {
+        height: 80%;
+        width: 80%;
+        transition: 0.5 ease-in-out;
+    }
+
+    .degree {
+        font-size: 42px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .like {
+        font-size: 22px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .tt {
+        font-size: 42px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .cc {
+        font-size: 22px;
+        transition: 0.5 ease-in-out;
+    }
+}
+
+@media(max-width:550px) {
+    .main-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5 ease-in-out;
+    }
+
+    .time_name {
+        width: 95%;
+        height: 30%;
+        display: flex;
+        transition: 0.5 ease-in-out;
+    }
+
+    .cloud {
+        height: 100%;
+        width: 40%;
+        transition: 0.5 ease-in-out;
+    }
+
+    .time {
+        height: 100%;
+        width: 60%;
+        transition: 0.5 ease-in-out;
+    }
+
+    .weather {
+        width: 95%;
+        height: 60%;
+        transition: 0.5 ease-in-out;
+    }
+
+    #city-name {
+        padding-left: 10px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .nav {
+        width: 90%;
+        transition: 0.5 ease-in-out;
+    }
+
+    .humidity div {
+        font-size: 18px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .degree {
+        font-size: 50px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .like {
+        font-size: 20px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .tt {
+        font-size: 50px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .cc {
+        font-size: 20px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .nav-right img {
+        height: 35%;
+        transition: 0.5 ease-in-out;
+    }
+
+    .nav-right input {
+        margin: 0;
+        height: 10%;
+        transition: 0.5 ease-in-out;
+    }
+
+    .welcome :nth-child(1) {
+        font-size: 40px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .welcome :nth-child(2) {
+        font-size: 50px;
+        transition: 0.5 ease-in-out;
+    }
+
+}
+
+@media(max-width:475px) {
+    .degree {
+        font-size: 45px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .like {
+        font-size: 18px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .tt {
+        font-size: 45px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .cc {
+        font-size: 18px;
+        transition: 0.5 ease-in-out;
+    }
+}
+
+@media(max-width:380px) {
+    #city-name {
+        font-size: 55px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .temperature span {
+        font-size: 45px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .feel span {
+        font-size: 30px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .humidity div {
+        font-size: 14px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .time_main {
+        font-size: 60px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .cloud img {
+        height: 75%;
+        width: 75%;
+        transition: 0.5 ease-in-out;
+    }
+
+    .nav-right input {
+        margin: 0;
+        height: 10%;
+        transition: 0.5 ease-in-out;
+    }
+
+    .nav-right img {
+        height: 35%;
+    }
+
+    .degree {
+        font-size: 35px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .like {
+        font-size: 18px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .tt {
+        font-size: 35px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .cc {
+        font-size: 18px;
+        transition: 0.5 ease-in-out;
+    }
+}
+
+@media(max-width:350px) {
+    .degree {
+        font-size: 32px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .like {
+        font-size: 16px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .tt {
+        font-size: 32px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .cc {
+        font-size: 16px;
+        transition: 0.5 ease-in-out;
+    }
+}

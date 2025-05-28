@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgb(0, 128, 111), rgb(0, 0, 0));
+}
+
+.nav {
+    height: 15%;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    margin-right: 12px;
+    filter: drop-shadow(0px 0px 5px rgba(255, 255, 0, 0.664));
+}
+
+.name {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.nav-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-right input {
+    height: 20%;
+    width: 80%;
+    border-radius: 30px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    transition: border 1s ease;
+    font-weight: bold;
+}
+
+input:hover {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+input::placeholder {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-right img {
+    height: 50%;
+    width: 20%;
+    filter: invert(1);
+}
+
+.main-box {
+    height: 77%;
+    width: 100%;
+    position: relative;
+    top: 20px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.time_name {
+    height: 90%;
+    width: 30%;
+    margin: 0px 5px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.139);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.weather {
+    height: 90%;
+    width: 60%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.139);
+    margin: 0px 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.cloud {
+    height: 60%;
+    width: 100%;
+}
+
+.cloud img {
+    height: 100%;
+    width: 100%;
+}
+
+.time {
+    height: 40%;
+    width: 100%;
+}
+
+.time_main {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.date {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 5px;
+}
+
+.city {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.city span {
+    padding-left: 10px;
+}
+
+.temp_days {
+    height: 80%;
+    width: 100%;
+}
+
+.upper {
+    height: 65%;
+    width: 100%;
+    display: flex;
+}
+
+.temperature {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+}
+
+.temperature span {
+    height: 75%;
+    width: 75%;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding:4px;
+    border-radius: 12px;
+}
+
+.tt{
+    font-size: 70px;
+}
+
+.cc{
+    font-size: 40px;
+}
+
+.feel {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.feel span {
+    height: 75%;
+    width: 75%;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:4px;
+    border-radius: 12px;
+}
+
+.degree{
+    font-size: 70px;
+}
+
+.like{
+    font-size: 40px;
+}
+
+.lower {
+    height: 35%;
+    width: 100%;
+}
+
+.humidity {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.hum {
+    height: 80%;
+    width: 30%;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid white;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.wind {
+    height: 80%;
+    width: 30%;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid white;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.discription {
+    height: 80%;
+    width: 30%;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid white;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.yasir{
+    position: absolute;
+    right: 0;
+    bottom: -45px;
+    margin: 2px;
+    color: white;
+    font-weight: bold;
+    opacity: 0.5;
+    right: 8px;
+}
+
+.welcome{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.welcome :nth-child(1){
+    font-size: 60px;
+}
+
+.welcome :nth-child(2){
+    font-size: 80px;
+}
+
+.welcome :nth-child(3){
+    font-size: 30px;
+}
